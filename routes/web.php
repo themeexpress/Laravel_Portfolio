@@ -14,6 +14,4 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/news', function(){
-	echo 'I am News File';
-});
+Route::get('/admin-access', 'AdminController@index');
